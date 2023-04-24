@@ -1,0 +1,87 @@
+body {
+    background-color: hsl(205, 33%, 90%);
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+    font-size:16px
+}
+
+.notifications {
+    background-color:white;
+    width: 600px;
+    margin: 0 auto;
+    border-radius: 10px;
+    
+}
+
+h1 {
+    display: inline;
+    margin: 40px;
+    
+}
+
+.notification-count {
+
+}
+
+.mark-as-read {
+
+}
+
+.unread {
+    background-color: hsl(210, 60%, 98%)
+}
+
+.notification {
+    max-width: 90%;
+    margin: 10px auto;
+    border-radius:10px;
+    display:grid;
+    grid-template-columns: 10% auto;
+    padding:5px
+}
+
+.avatar {
+    max-width:30px;
+    margin:5px
+}
+
+.notification-title {
+    display:inline
+
+}
+
+.notification-content {
+    display:inline;
+    color: hsl(219, 12%, 42%);
+    align-self:center
+}
+
+.name {
+    color:hsl(224, 21%, 14%);
+    font-weight: 700
+
+}
+
+.time {
+    display:inline;
+    
+}
+
+.message {
+
+}
+
+.post-name {
+
+}
+
+.group-name {
+
+}
+
+.picture {
+    display:inline;
+    float:right;
+    max-width:30px;
+    margin:5px;
+}
